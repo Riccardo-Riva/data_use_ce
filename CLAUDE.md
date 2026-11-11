@@ -3,6 +3,9 @@
 ## Rules
 - **Never commit, push unless the user explicitly asks.** The user commits. You can eventually suggest to create branches or worktrees.
 - One small step at a time (diff under ~300 lines), with tests, then stop for the user's review.
+- **Everything we do is recorded in `docs/DIARY.md`.** One dated entry per step, appended at the
+  end (newest last): what changed, the decisions taken and why, the numbers measured, and what is
+  left open. Update it in the same step as the code, and say in the report that it was updated.
 - Use Google format for docstrings:
     """
     This is an example of Google style.
