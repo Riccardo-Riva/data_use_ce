@@ -1,0 +1,15 @@
+# Environment
+.venv/
+
+# Python caches
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Generated, not versioned (rebuilt by the scripts)
+data/
+outputs/
