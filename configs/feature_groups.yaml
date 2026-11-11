@@ -1,0 +1,7 @@
+# Feature groups for the excellence notebooks, with the original UCI column names.
+# G3 (final grade) is the outcome and must not appear here.
+prior_grades: [G1, G2]
+school: [failures, absences, studytime, schoolsup, paid, activities, higher, reason, traveltime]
+family_socioeconomic: [Medu, Fedu, Mjob, Fjob, famsize, Pstatus, address, internet, famsup, guardian, nursery]
+demographic: [sex, age, school]
+lifestyle_health: [Dalc, Walc, health, romantic, goout, freetime, famrel]
